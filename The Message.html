@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHANERY</title>
+    <link rel="stylesheet" href="The Message.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-message-detail'></i>
+                <i class='bx bx-menu' id="btn"></i>
+                <div class="logo_name"> The Message </div>
+            </div>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+                <!--<span class="links_name">DashBoard</span> -->
+            </li>
+            <li>
+                <a href="Home.html">
+                    <i class='bx bx-home-heart' ></i>
+                <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="The Memories.html">
+                    <i class='bx bx-book-heart' ></i>
+                <span class="links_name"> The Memories </span>
+                </a>
+                <span class="tooltip"> The Memories </span>
+            </li>
+            <li>
+                <a href="The Music.html">
+                    <i class='bx bxs-music' ></i>
+                <span class="links_name"> The Music </span>
+                </a>
+                <span class="tooltip"> The Music </span>
+            </li>
+            <li>
+                <a href="The Message.html">
+                    <i class='bx bx-message-detail'></i>
+                <span class="links_name"> The Message Wall</span>
+                </a>
+                <span class="tooltip"> The Message Wall </span>
+            </li>
+            <li>
+                <a href="The Continuation.html">
+                    <i class='bx bx-add-to-queue' ></i>
+                <span class="links_name"> The Continuation </span>
+                </a>
+                <span class="tooltip"> The Continuation </span>
+            </li>
+        </ul>
+            <div class="profile_content">
+<div class="profile">
+    <div class="profile_details">
+        <img src="HashGab/10th Monthsary/photo_2_2023-07-21_22-48-42.jpg" alt="Gab">
+        <div class="name_job">
+    </div>
+</div>
+</div>
+            </div>
+            </div>
+    </div>
+    <div class="home_content">
+        <br>
+        <div class="text"></div>
+        </head>
+        <body>
+          <div class="testimonial">
+            <h1>The Message Wall</h1>
+            <div class="line"></div>
+            <!-- arrow wrapper contains the review and the arrows -->
+            <div class="arrow-wrapper">
+              <!-- review section -->
+              <div id="reviewWrap" class="review-wrap">
+                <div id="imgBox"></div>
+                <div id="name"></div>
+                <div id="profession"></div>
+                <div id="description"></div>
+              </div>
+              <!-- left arrow -->
+              <div class="left-arrow-wrap">
+                <div class="arrow"></div>
+              </div>
+              <!-- right arrow -->
+              <div class="right-arrow-wrap">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+        
+          <script>
+            const reviewWrap = document.getElementById("reviewWrap");
+            const leftArrow = document.querySelector(".left-arrow-wrap .arrow");
+            const rightArrow = document.querySelector(".right-arrow-wrap .arrow");
+            const imgBox = document.getElementById("imgBox");
+            const name = document.getElementById("name");
+            const profession = document.getElementById("profession");
+            const description = document.getElementById("description");
+        
+            let people = [{
+                photo: 'url(HashGab/Msg/1692769463961.jpeg)',
+                name: "Hashna Lalaine Chuaquico",
+                profession: "Imissyou.",
+                description: "Hi hash, I hope you remember me pa, How are you? Are things good on your end? I miss you, there are a lot of questions I like to ask to you. But tbh my biggest question would be... Hash, can we make things right and accept me once again? I've waited and waited just for this moment. Hash, Idk how to interact with u na for we know both how many times I've been denied and ignored. And I understand why. The wound that my old self left is so deep and I understand the freshness and pain it brings. I understand that my behaviour has been hurting you and there's no excuse for the way I've treated you, and i want you to know that i am commited to making ammends. I've taken my time to reflect on my actions, and I realise tha importance of being more considerate, kind, and supportive in our relatioship "
+              },
+              {
+                name: "Hashna Lalaine Chuaquico",
+                profession: "You're Worthy.",
+                description: "I have no ill intentions on loving you again, I won't deny all what u said to me for all of those are true. I am very hash, I'm ready to face you na and love you the way you deserve and even more. I can say for sure na i really did change on how I see things and tackle them. Hash, Iloveyou and I respect you above all. Does it still hurt when u see and talk to me? Does your heart aches when you feel my presence? Hash I am very very sorry from the past. I learned a valuable lesson and it help me grow but I know the damage that I left will not be that easy to repair. I would be willing to overcome that by changing those pains into a new and Happy Memory. I hope you can give me a chance to prove myself to u. I hope U can enjoy this mini website that I created with our memories intact and the good ones. Didn't I promise you that? "
+              },
+              {
+                name: "Hashna Lalaine Chuaquico",
+                profession: "You're so beautiful.",
+                description: "I don't want to be selfish on this matter. I just want you to know lang po hash na there is a guy here your ex bf na will assure your happiness and be mature on handling the future if you will let me. I know I can't prove nothing right now, if you will let me and accept me once again hash. I will make you feel worthy and above all a happy and a person who is deserving to be treated right and to be loved right. Hash, This may be the one you're talking about na the same as my previous emails. I'm very sorry hash for being so late na matauhan. I don't wanna lose u completely hash. I really love you, I like how things are on your end and I just hope na the new me is supporting u through all your wants for that is me right now. I want you to know na I value our relationship, and I don't wanna lose you. You mean a lot to me, and I've changed and will prove to you and regain your trust and make things right."
+              },
+              {
+                name: "Hashna Lalaine Chuaquico",
+                profession: "Iloveyou.",
+                description: "I've collected all the courage to show up to u again for me to prove to you and let our story continue on a new page. Hash idk what would be your emotion at this time but I really do hope that deep inside in your heart has a place where I can fit my self. We seperated for a good reason where we grow individually. A month may be taken as a short time but for me it is like a decade. How much I endured and stop myself upon showing this unto u. But ofc I would also understand and take measure of what u also feel. Please know that I'm always here to listen your thoughts and feelings. Your happiness and comfort are my priorities, and I'll do whatever it takes to ensure you feel respected and cared for. I'm very sorry hash, I hope we can find a way to move past this and build a stronger, healthier, and happier relationship together"
+              }
+            ];
+        
+            // set the first person
+            imgBox.style.backgroundImage = people[0].photo;
+            name.innerText = people[0].name;
+            profession.innerText = people[0].profession;
+            description.innerText = people[0].description;
+            let currentPerson = 0;
+        
+            //Select the side where you want to slide
+            function slide(side, personNumber) {
+              let reviewWrapWidth = reviewWrap.offsetWidth + "px";
+              let descriptionHeight = description.offsetHeight + "px";
+              //(+ or -)
+              let side1symbol = side === "left" ? "" : "-";
+              let side2symbol = side === "left" ? "-" : "";
+        
+              setTimeout(() => {
+                imgBox.style.backgroundImage = people[personNumber].photo;
+              }, 0);
+              setTimeout(() => {
+                description.style.height = descriptionHeight;
+              }, 100);
+              setTimeout(() => {
+                name.innerText = people[personNumber].name;
+              }, 200);
+              setTimeout(() => {
+                profession.innerText = people[personNumber].profession;
+              }, 300);
+              setTimeout(() => {
+                description.innerText = people[personNumber].description;
+              }, 400);
+              setTimeout(() => {
+                profession.innerText = people[personNumber].profession;
+              }, 500);
+              setTimeout(() => {
+                description.innerText = people[personNumber].description;
+              }, 600);
+            }
+        
+            function setNextCardLeft() {
+              if (currentPerson === 4) {
+                currentPerson = 0;
+                slide("left", currentPerson);
+              } else {
+                currentPerson++;
+              }
+        
+              slide("left", currentPerson);
+            }
+        
+            function setNextCardRight() {
+              if (currentPerson === 0) {
+                currentPerson = 3;
+                slide("right", currentPerson);
+              } else {
+                currentPerson--;
+              }
+        
+              slide("right", currentPerson);
+            }
+        
+            leftArrow.addEventListener("click", setNextCardLeft);
+            rightArrow.addEventListener("click", setNextCardRight);
+          </script>
+        </body>
+    </div>
+
+    <script>
+
+        
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+    </script>
+</body>
+</html>
+        

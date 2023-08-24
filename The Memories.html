@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHANERY</title>
+    <link rel="stylesheet" href="The Memories.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-book-heart' ></i>
+                <i class='bx bx-menu' id="btn"></i>
+                <div class="logo_name"> The Memories </div>
+            </div>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bx-search'></i>
+            <input type="text" placeholder="Search...">
+            <!--<span class="links_name">DashBoard</span> -->
+        </li>
+        <li>
+            <a href="Home.html">
+                <i class='bx bx-home-heart' ></i>
+            <span class="links_name">Home</span>
+            </a>
+            <span class="tooltip">Home</span>
+        </li>
+        <li>
+            <a href="The Memories.html">
+                <i class='bx bx-book-heart' ></i>
+            <span class="links_name"> The Memories </span>
+            </a>
+            <span class="tooltip"> The Memories </span>
+        </li>
+        <li>
+            <a href="The Music.html">
+                <i class='bx bxs-music' ></i>
+            <span class="links_name"> The Music </span>
+            </a>
+            <span class="tooltip"> The Music </span>
+        </li>
+        <li>
+            <a href="The Message.html">
+                <i class='bx bx-message-detail'></i>
+            <span class="links_name"> The Message Wall</span>
+            </a>
+            <span class="tooltip"> The Message Wall </span>
+        </li>
+        <li>
+            <a href="The Continuation.html">
+                <i class='bx bx-add-to-queue' ></i>
+            <span class="links_name"> The Continuation </span>
+            </a>
+            <span class="tooltip"> The Continuation </span>
+        </li>
+        </ul>
+            <div class="profile_content">
+<div class="profile">
+    <div class="profile_details">
+        <img src="HashGab/10th Monthsary/photo_2_2023-07-21_22-48-42.jpg" alt="Gab">
+        <div class="name_job">
+    </div>
+</div>
+</div>
+            </div>
+            </div>
+    </div>
+    <div class="home_content">
+        <div class="text"> The Memories </div>
+        <p> We spent a year and five months into making this memories. Didn't I promise you na I'll make this as a website. Hope you appreciate it. </p>
+        
+        <ul class="Top"> 
+            <li class="Bottom">
+              <span class="Span"> Memorable Events </span>
+              <a href="Memorable Events.html"><img src="HashGab/Hash's Birthday/photo_15_2023-07-08_20-15-10.jpg"/>
+            </li>
+            
+            <li class="Bottom">
+              <span class="Span"> Sweet Pictures </span>
+              <a href="Sweet Moments.html"><img src="HashGab/Kulitan Moments/photo_7_2023-07-08_20-16-37.jpg"/>
+            </li>
+            
+            <li class="Bottom">
+              <span class="Span"> Favorite Ones </span>
+              <a href="Favorite Ones.html"><img src="HashGab/357717269_10159890391658512_8255950456261460888_n.jpg"/>
+            </li>
+            
+            <li class="Bottom">
+              <span class="Span"> Food Dates </span>
+              <a href="Food Dates.html"><img src="HashGab/Foodtrips/photo_7_2023-06-15_23-21-39.jpg"/>
+            </li>
+            
+            <li class="Bottom">
+                <a href="Adventures.html"><span class="Span"> Adventures </span>
+              <img src="HashGab/Hiking/photo_3_2023-07-21_22-35-04.jpg"/>
+            </li>
+          </ul>
+    </div>
+    </div>
+    <script>
+
+        
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+
+    </script>
+</body>
+</html>
